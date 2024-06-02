@@ -1,0 +1,87 @@
+.novidades-entry {
+    gap: 30px;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    justify-content: space-between;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.novidades-entry .card-img {
+    width: 350px;
+    height: 228px;
+    border-radius: 16px;
+}
+
+.novidades-entry .card-content {
+    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.novidades-entry .card-name {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* position: relative; */
+    align-items: flex-start;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+.novidades-entry .card-title {
+    color: rgba(0, 43, 49, 1);
+    height: auto;
+    /* position: absolute; */
+    font-size: 32px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.novidades-entry .card-subtitle {
+    color: rgba(66, 66, 66, 1);
+    height: auto;
+    /* position: absolute; */
+    font-size: 20px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+
+.novidades-entry .card-description-area {
+    width: 906px;
+    height: 145px;
+    display: flex;
+    /* position: relative; */
+    align-items: flex-start;
+    flex-shrink: 1;
+}
+
+.novidades-entry .card-description {
+    color: rgba(66, 66, 66, 1);
+    width: 906px;
+    height: auto;
+    /* position: absolute; */
+    font-size: 18px;
+    font-style: regular;
+    text-align: justify;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}

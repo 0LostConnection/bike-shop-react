@@ -1,0 +1,139 @@
+.orcamento-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.orcamento-orcamento {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.orcamento-orcamento1 {
+  gap: 10px;
+  display: flex;
+  padding: 77px 427px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+}
+
+.orcamento-orcamento-box {
+  gap: 30px;
+  display: flex;
+  padding: 30px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.orcamento-text12 {
+  color: rgba(0, 43, 49, 1);
+  height: auto;
+  font-size: 42px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.orcamento-orcamento-field-area {
+  gap: 30px;
+  width: fit-content;
+  display: flex;
+  padding: 40px 90px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(210, 210, 210, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.orcamento-orcamento-field-area-group {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.orcamento-field {
+  gap: 3px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.form-title {
+  color: rgba(30, 31, 32, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.input {
+  padding: 7px
+}
+
+.orcamento-button {
+  gap: 9px;
+  display: flex;
+  padding: 10px 10px;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 8.459190368652344px;
+  justify-content: center;
+  background-color: rgba(76, 175, 80, 1);
+  font-size: 21;
+  color: rgba(255, 255, 255, 1);
+  font-style: Bold;
+  font-weight: 700;
+}
+
+.orcamento-button:hover {
+  cursor: pointer;
+}
+
+.orcamento-button:active {
+  background-color: rgb(63, 151, 66);
+  transform: translateY(2px);
+}
+
+.orcamento-text22 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 21.147974014282227px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
