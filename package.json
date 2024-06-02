@@ -2,11 +2,9 @@
   "name": "bike-shop",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://0LostConnection.github.io/bike-shop-react",
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.0",
     "ajv": "^8.14.0",
-    "gh-pages": "^6.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
