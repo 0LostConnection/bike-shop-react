@@ -2,15 +2,19 @@
   "name": "bike-shop",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://0LostConnection.github.io/bike-shop-react"
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.0",
     "ajv": "^8.14.0",
+    "gh-pages": "^6.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test --env=jsdom",
