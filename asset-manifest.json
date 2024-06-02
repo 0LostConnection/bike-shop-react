@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bike-shop-react/static/css/main.83b27418.css",
+    "main.js": "/bike-shop-react/static/js/main.8e50e60f.js",
+    "index.html": "/bike-shop-react/index.html",
+    "main.83b27418.css.map": "/bike-shop-react/static/css/main.83b27418.css.map",
+    "main.8e50e60f.js.map": "/bike-shop-react/static/js/main.8e50e60f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83b27418.css",
+    "static/js/main.8e50e60f.js"
+  ]
+}
